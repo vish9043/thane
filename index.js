@@ -34,7 +34,7 @@ window.initMap = initMap;
 
 $(window).on('load', function () {
   // sheetID you can find in the URL of your spreadsheet after "spreadsheet/d/"
-  const sheetId = "1Yvhu2I5AJGw2w3Av6OxEWpl1QIC9mK9MBuOR0l_y22k";
+  const sheetId = "1B3qVHKjD27Q33FpOtBHN57aUJBAMS5FAfYzXUAZWTUY";
   // sheetName is the name of the TAB in your spreadsheet (default is "Sheet1")
   const sheetName = encodeURIComponent("Sheet1");
   const sheetURL = `https://docs.google.com/spreadsheets/d/${sheetId}/gviz/tq?tqx=out:csv&sheet=${sheetName}`;
