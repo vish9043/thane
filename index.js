@@ -75,6 +75,7 @@ $(window).on('load', function () {
           </p>` : `<p class="hook">
           <h3>${positionData[i].name || "Hospital Name Not Mentioned"}</h3>
           <div><b>Address:</b> ${positionData[i].address || "Private address"}</div>
+          <div><b>doctor number:</b> ${positionData[i].dr || "Private number"}</div>
           <h4>Register HCF</h4>
           </p>`;
           return function () {
